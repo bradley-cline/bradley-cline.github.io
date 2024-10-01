@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Brad Cline</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="NewWhiteBlack.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<div class="container mb-5 pb-2">
+		<div class="row justify-content-center mb-3">
+			<ul class="nav nav-pills">
+				<li class="nav-item"><a class="nav-link" href="index.html">About Me</a></li>  <!-- Add data-toggle="pill" if pills stop working -->
+		  		<li class="nav-item"><a class="nav-link active" href="">Projects</a></li>
+		  		<li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+		  		<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<hr class="rounded">
+		<div class="row justify-content-center">
+			<div class="card p-2" style="width: 32rem">
+				<video class="card-img-top mt-2 mb-2 p-2" width="512" height="288" controls>
+  					<source src="SeaOfLegendsTrailer.mp4" type="video/mp4">
+  						Your browser does not support the video tag.
+				</video>
+				<h5 class="card-title pl-2 pr-2">Sea of Legends</h5>
+				<h6 class="card-subtitle mb-2 pl-2 pr-2">Desktop Game</h6>
+				<p class="card-body mb-1 p-0 pl-2 pr-2">A seafaring adventure game, developed with a team of four others. Built in Unity using C#.</p>
+				<div class="row m-2 justify-content-center pl-2 pr-2 pb-2">
+					<a href="SoLBuilds/SeaOfLegends_Windows.zip" target="_blank" class="btn ml-2 mr-2 mb-2 mt-2">Windows Download</a>
+					<a href="SoLBuilds/SeaOfLegends_Mac.zip" target="_blank" class="btn ml-2 mr-2 mb-2 mt-2">Mac Download</a>
+				</div>
+			</div>
+			<div class="card p-2" style="width: 32rem">
+				<video class="card-img-top mt-2 mb-2 p-2" width="512" height="288" controls>
+  					<source src="WatchSimDemoVideo.mp4" type="video/mp4">
+  						Your browser does not support the video tag.
+				</video>
+				<h5 class="card-title pl-2 pr-2">Watch Sim</h5>
+				<h6 class="card-subtitle mb-2 pl-2 pr-2">iPad application</h6>
+				<p class="card-body mb-1 p-0 pl-2 pr-2">An educational application that simulates the disassembly and reassembly of a mechanical pocket watch. Built with Swift and SpriteKit.</p>
+				<div class="row m-2 justify-content-center pl-2 pr-2 pb-2">
+					<a href="https://github.com/bradley-cline/WatchSim" target="_blank" class="btn ml-2 mr-2">Source Code</a>
+					<!-- <a href="#" target="_blank" class="disabled btn ml-2 mr-2">Video</a> -->
+				</div>
+			</div>
+			<div class="card p-2" style="width: 32rem">
+				<img class="card-img-top mb-2 pb-2" src="UtiliJewelThumbnail.png">
+				<h5 class="card-title">UtiliJewel</h5>
+				<h6 class="card-subtitle mb-2">Desktop application</h6>
+				<p class="card-body mb-1 p-0">An informative tool that performs and displays common jewelry and watch industry conversions. Also derives retail price of new jewelry merchandise based on metal and stone weights, using a proprietary formula. Built with C++ and QT.</p>
+				<div class="row m-2 justify-content-center">
+					<a href="https://github.com/bradley-cline/MyStones" target="_blank" class="btn ml-2 mr-2">Source Code</a>
+					<a href="#" class="disabled btn ml-2 mr-2">Video</a>
+				</div>
+			</div>
+			<!-- <div class="card p-2" style="width: 18rem">
+				<img class="card-img-top mb-2" src="TaskeeThumbnail.png">
+				<h5 class="card-title">Taskee</h5>
+				<h6 class="card-subtitle mb-2">Android Application - UNDER CONSTRUCTION</h6>
+				<p class="card-body mb-1 p-0">A project that does project things and other awesome project stuff</p>
+				<div class="row m-2 justify-content-center">
+					<a href="https://github.com/bradley-cline/Taskee" target="_blank" class="btn ml-1 mr-2">Source Code</a>
+					<a href="#" class="disabled btn ml-2 mr-1">Learn More</a>
+				</div>
+			</div> -->
+			<!-- <div class="card p-2" style="width: 18rem">
+				<img class="card-img-top mb-2" src="DonutQuestThumbnail.png">
+				<h5 class="card-title">Donut Quest</h5>
+				<h6 class="card-subtitle mb-2">iOS Game - UNDER CONSTRUCTION</h6>
+				<p class="card-body mb-1 p-0">A 2D platform adventure game for iPhone and iPad. Built with Swift and SpriteKit.</p>
+				<div class="row m-2 justify-content-center">
+					<a href="#" class="disabled btn ml-1 mr-2">Source Code</a>
+					<a href="#" class="disabled btn ml-2 mr-1">Learn More</a>
+				</div>
+			</div> -->
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="footerContainer justify-content-center">
+			<a href="mailto: brad@bradclinedev.com"><img src="email.png" alt="Email" width="40px" height="40px" style="margin-right: 1rem"></a>
+			<a href="https://www.linkedin.com/in/bradley-cline" target="_blank"><img src="linkedin.png" alt="LinkedIn" width="40px" height="40px" style="margin-right: 1rem"></a>
+			<a href="https://www.github.com/bradley-cline" target="_blank"><img src="github.png" alt="GitHub" width="40px" height="40px"></a>
+		</div>
+	</footer>
+</body>
+</html>

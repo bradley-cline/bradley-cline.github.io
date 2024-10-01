@@ -1,0 +1,222 @@
+
+/*:root{
+	--blue: #325780;
+	--secondaryBlue: #27415e;
+	--ternaryBlue: #22364d;
+	--mutedBlue: #bcc9d6;
+	--mutedBlue2: #ced5db;
+	--white: #fff;
+	--white2: #ebebeb;
+}*/
+
+/*:root{
+	--blue: #0953ad;
+	--secondaryBlue: #0e4487;
+	--ternaryBlue: #0f325e;
+	--mutedBlue: #bcc9d6;
+	--mutedBlue2: #ced5db;
+	--white: #fff;
+	--white2: #ebebeb;
+}*/
+
+:root{
+	--blue: #093b7a;
+	--secondaryBlue: #073063;
+	--ternaryBlue: #082345;
+	--mutedBlue: #bcc9d6;
+	--mutedBlue2: #ced5db;
+	--white: #fff;
+	--white2: #ebebeb;
+}
+
+/*:root{
+	--blue: #002657;
+	--secondaryBlue: #011c40;
+	--ternaryBlue: #000f24;
+	--mutedBlue: #bcc9d6;
+	--mutedBlue2: #ced5db;
+	--white: #fff;
+	--white2: #ebebeb;
+}*/
+
+.footerContainer{
+	background-color: var(--secondaryBlue);
+	position: sticky;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	text-align: center;
+	color: var(--white);
+	opacity: 50%;
+	box-shadow: 0px -1px var(--ternaryBlue);
+}
+
+.footerContainer.home{
+	position: fixed;
+}
+
+.footerContainer:hover{
+	opacity: 1;
+}
+
+
+
+@media (max-width:18rem) {
+  img#optionalstuff {
+    display: none;
+  }
+}
+
+
+.btn{
+	color: var(--secondaryBlue);
+	outline-color: var(--blue);
+	background-color: var(--white2);
+}
+
+.btn:hover{
+	color: var(--white);
+	background-color: var(--mutedBlue);
+}
+
+.btn:focus, .btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem var(--mutedBlue);
+}
+
+
+.homePageText{
+	color: var(--white2);
+	justify-content: center;
+	text-align: center;
+}
+
+.homeContainer{
+	position: fixed;
+	top: 30%;
+	margin-bottom: 2rem;
+	width: 100%;
+}
+
+.flex-row{
+	margin-top: 9rem;
+	margin-right: 3rem;
+	margin-left: 3rem;
+}
+
+.row.home{
+	max-width: 32rem;
+}
+
+.row.resume{
+	margin-right: 1rem;
+	margin-left: 1rem;
+	justify-content: center;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+.flex-row-holder{						
+	position: relative;
+	top: 10rem;
+	margin-bottom: 5rem;
+}
+
+.card-columns{
+	max-width: 90%;
+	column-count: 1;
+}
+
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+	color: var(--white);
+	background-color: var(--secondaryBlue);
+}
+
+.nav-link{
+	color: var(--white);
+}
+
+.nav-link.downloads{
+	color: var(--white2);
+	background-color: var(--ternaryBlue);
+}
+
+.nav-link:hover{
+  color: var(--secondaryBlue);
+  background-color: var(--white);
+}
+
+body{
+	background-color: var(--blue);
+	/*display: flex;*/
+	justify-content: center;
+	height: 100%;
+}
+
+.animation1{
+	animation: fadeIn ease 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn{
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+hr.rounded{
+	background: var(--white2);
+	max-width: 22rem;
+}
+
+.card-img-top{
+	background-color: var(--ternaryBlue);
+}
+
+.contactHeader{
+	color: var(--white2);
+	font-size: 5rem;
+	margin-top: 5rem;
+}
+
+.contactContainer{
+	max-width: 36rem;
+}
+
+.contactMethods{
+	margin-top: 1.5rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+	color: var(--white2);
+}
+
+.card{
+	background-color: var(--secondaryBlue);
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+	max-width: 700px;
+	color: var(--white);
+	box-shadow: -2px 2px var(--ternaryBlue)/*, 3px -3px var(--ternaryBlue)*/;
+}
+
+.card.resume{
+	background-color: var(--blue);
+	border-width: 0px;
+	border-color: var(--white2);
+	box-shadow: -3px 0.5px var(--white), 0px 0px var(--white2);
+	width: 100%;
+}
+
+
+.card-subtitle{
+	color: var(--mutedBlue);
+}

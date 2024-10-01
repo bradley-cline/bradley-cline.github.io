@@ -1,0 +1,77 @@
+
+:root{
+	--purple: #8000ff;
+	--secondaryPurple: #6c06cc;
+	--white: #fff;
+	--mutedPurple: #cec1d9;
+	--ternaryPurple: #5c07ab;
+}
+
+.footerContainer{
+	background-color: var(--secondaryPurple);
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding-top: 3rem;
+	text-align: center;
+	color: var(--white);
+	opacity: 50%;
+}
+
+.footerContainer:hover{
+	opacity: 100%;
+}
+
+.btn{
+	color: var(--secondaryPurple);
+	outline-color: var(--purple);
+	background-color: var(--white);
+}
+
+.btn:hover{
+	color: var(--white);
+	background-color: var(--mutedPurple);
+}
+
+.btn:focus, .btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem var(--mutedPurple);
+}
+
+
+.card-subtitle{
+	color: var(--mutedPurple);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+	color: var(--white);
+	background-color: var(--secondaryPurple);
+}
+
+.nav-link{
+	color: var(--white);
+}
+
+.nav-link:hover{
+  color: var(--secondaryPurple);
+  background-color: var(--white);
+}
+
+body{
+	background-color: var(--purple);
+}
+
+.card-img-top{
+	background-color: var(--ternaryPurple);
+}
+
+.card{
+	background-color: var(--secondaryPurple);
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+	max-width: 700px;
+	color: var(--white);
+	box-shadow: -3px 7px var(--ternaryPurple);
+}

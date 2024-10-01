@@ -1,0 +1,56 @@
+:root{
+	--white: #fff;
+	--green: #32803e;
+	--secondaryGreen: #265e2e;
+	--mutedGreen: #9dab9e;
+}
+
+
+.downloads{
+	background-color: var(--mutedGreen);
+}
+
+.nav-link.disabled{
+	color: var(--mutedGreen);
+}
+
+.card{
+	color: var(--white);
+	background-color: var(--secondaryGreen);
+}
+
+
+.footerContainer{
+	background-color: var(--secondaryGreen);
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding-top: 3rem;
+	text-align: center;
+	color: var(--white);
+	opacity: 50%;
+}
+
+.footerContainer:hover{
+	opacity: 100%;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+	color: var(--white);
+	background-color: var(--secondaryGreen);
+}
+
+.nav-link{
+	color: var(--white);
+}
+
+.nav-link:hover{
+  color: var(--secondaryGreen);
+  background-color: var(--white);
+}
+
+body{
+	background-color: var(--green);
+}

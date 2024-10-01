@@ -1,0 +1,41 @@
+
+:root{
+	--red: #c73e3e;
+	--secondaryRed: #9c2f2f;
+	--white: #fff;
+}
+
+.footerContainer{
+	background-color: var(--secondaryRed);
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding-top: 3rem;
+	text-align: center;
+	color: var(--white);
+	opacity: 50%;
+}
+
+.footerContainer:hover{
+	opacity: 100%;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+	color: var(--white);
+	background-color: var(--secondaryRed);
+}
+
+.nav-link{
+	color: var(--white);
+}
+
+.nav-link:hover{
+  color: var(--white);
+  background-color: var(--secondaryRed);
+}
+
+body{
+	background-color: var(--red);
+}
